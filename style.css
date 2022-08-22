@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/static/Montserrat-Regular.ttf);
+}
+
+header {
+    background-color: #333333;
+}
+
+.header_inner {
+    height: 40px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.links {
+    text-decoration: none;
+    color: #D6D6D6;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.icons {
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
+}
+
+
+
+.ads {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #F5F5F7;
+    padding: 20px 15px;
+    border-radius: 10px;
+}
+
+.ads-1 {
+    font-size: 10px;
+}
+
+.all-ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 20px 5px;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.main_text {
+    margin: 0 auto;
+    font-family: 'Montserrat' ;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.get_btns button {
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.new_advs {
+    width: 40%;
+}
+
+.new_orange {
+    color: orange;
+}
+
+.h1 {
+    font-weight: 300;
+    font-size: bold;
+}
+.h2 {
+    width: 370px
+}
+
+.main_types_of_iphone {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.right_side {
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.btn {
+    width: 350px;
+    height: 90px;
+    display: flex;
+    background: none;
+    border: solid 1px gray;
+    border-radius: 14px;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn_modal{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    background: #F5F5F7;
+    border: solid 1px gray;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 20px;
+
+}
+
+.left {
+    width: 40%;
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.right {
+    width: 60%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.gray_text {
+    color: gray;
+}
+
+.alert{
+    width: 300px;
+    height: 150px;
+    color: gray;
+    font-size: small;
+    font-weight: 30px;
+}
+
+.main_image {
+    width: 700px;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    position: sticky;
+    top: 50px;
+
+}
+
+.finish {
+    font-size: medium;
+}
+
+.right_side div button {
+    width: 40px;
+    height: 40px;
+    border-radius: 500px;
+    border: none;
+    gap: 20px;
+}
+
+.button_1 {
+    background-color: #256281;
+}
+
+.button_2 {
+    background-color: #354634;
+}
+
+.button_3 {
+    background-color: #161D24;
+}
+
+.button_4 {
+    background-color: #F6DBD4;
+}
+
+.button_5 {
+    background-color: #8F010F;
+}
+
+.button_6 {
+    background-color: #F8F3EF;
+}
